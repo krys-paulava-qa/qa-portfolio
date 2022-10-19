@@ -1,0 +1,60 @@
+{
+	"Bug_id":"1",
+	"Priority":"Hight",
+	"Summary":"Total price does NOT reflect to the product quantity",
+	"Steps to reproduce":
+	{
+		"1":"Go to any Category",
+		"2":"Add any item to the Cart",
+		"3":"Go to the Cart",
+		"4":"Change quantity of the product",
+		"5":"Go to the Payment page",
+		"6":"Observe the total price"
+	},
+	"Expected result":"Total price should reflect to the product quantity",
+	"Actual result":"Total price display as for only 1 item"
+},
+
+{
+	"Bug_id":"2",
+	"Priority":"Hight",
+	"Summary":"Total price in the Cart for products from On sale category shown without discount",
+	"Steps to reproduce":
+	{
+		"1":"Go to On sale Category",
+		"2":"Add any product from On sale Category to the Cart",
+		"3":"Go to the Cart",
+		"4":"Observe the total price"
+	},
+	"Expected result":"Total price shown with the discount",
+	"Actual result":"Total price shown without discount"
+},
+
+{
+	"Bug_id":"3",
+	"Priority":"Medium",
+	"Summary":"User is always redirected to the Home page after refresh any page",
+	"Steps to reproduce":
+	{
+		"1":"Go to any page except Home page",
+		"2":"Refresh the page"
+	},
+	"Expected result":"User should stay on the same page",
+	"Actual result":"User is redirected to the Home page"
+},
+
+{
+	"Bug_id":"4",
+	"Priority":"Low",
+	"Summary":"Error message “Please fill in the form” is black when user leaves one of the required fields empty",
+	"Steps to reproduce":
+	{
+		"1":"Go to any Category",
+		"2":"Add at least one product to the Cart",
+		"3":"Go to the Checkout page",
+		"4":"Leave at least one of the required fields empty",
+		"5":"Click Confirm order button"
+	},
+	"Expected result":"Error message “Please fill in the form” is red",
+	"Actual result":"Error message “Please fill in the form” is black"
+}
