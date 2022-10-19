@@ -1,0 +1,49 @@
+{
+	"TestCase_id":"1",
+	"Title":"Product Details page should open after user clicks on any product",
+	"Steps":
+	{
+		"1":"Given user is on any Product Category page",
+		"2":"When user clicks on any product"
+	},
+	"Expected result":"Then the Product Details page should open"
+},
+
+{
+	"TestCase_id":"2",
+	"Title":"User should be able to complete the Payment by clicking Confirm order button",
+	"Steps":
+	{
+		"1":"Given user is on Checkout page",
+		"2":"When product is added to the Cart",
+		"3":"And all payment information is valid",
+		"4":"And user clicks Confirm order button"
+	},
+	"Expected result":"Then user should be able to complete the Payment"
+},
+
+{
+	"TestCase_id":"3",
+	"Title":"Total price should be reflected to the product quantity",
+	"Steps":
+	{
+		"1":"Go to any Category",
+		"2":"Add any item to the Cart",
+		"3":"Go to the Cart",
+		"4":"Change quantity of the product",
+		"5":"Go to the Payment page"
+	},
+	"Expected result":"Total price should reflect to the product quantity"
+},
+
+{
+	"TestCase_id":"4",
+	"Title":"User should be able to add product to the Cart",
+	"Steps":
+	{
+		"1":"Go to any Category",
+		"2":"Add any item to the Cart",
+		"3":"Go to the Cart"
+	},
+	"Expected result":"The item should be added to the Cart"
+}
